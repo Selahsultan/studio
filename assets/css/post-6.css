@@ -1,0 +1,219 @@
+.elementor-kit-6 {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #434343;
+    --e-global-color-text: #434343;
+    --e-global-color-accent: #61CE70;
+    --e-global-color-edeea0b: #F6F4F1;
+    --e-global-color-8027572: #212220;
+    --e-global-typography-primary-font-family: "HelveticaNeue";
+    --e-global-typography-primary-font-weight: 400;
+    --e-global-typography-secondary-font-family: "HelveticaNeue";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "HelveticaNeue";
+    --e-global-typography-text-font-size: max(0.938vw, 16px);
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-text-text-transform: uppercase;
+    --e-global-typography-text-line-height: 1.3em;
+    --e-global-typography-accent-font-family: "HelveticaNeue";
+    --e-global-typography-accent-font-weight: 500;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 98%;
+}
+
+.e-con {
+    --container-max-width: 98%;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-block-end: 20px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-6 e-page-transition {
+    background-color: #1D1D1D;
+}
+
+.site-header .site-branding {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.site-header {
+    padding-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.site-footer .site-branding {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+@media(max-width:1700px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 95%;
+    }
+    .e-con {
+        --container-max-width: 95%;
+    }
+}
+
+@media(max-width:1200px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 95%;
+    }
+    .e-con {
+        --container-max-width: 95%;
+    }
+}
+
+@media(max-width:768px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 95%;
+    }
+    .e-con {
+        --container-max-width: 95%;
+    }
+}
+
+/* Start Custom Fonts CSS */
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Roman.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Roman.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Black.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: italic;
+    font-weight: 900;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-BlackItalic.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-BlackItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 600;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Bold.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: italic;
+    font-weight: 600;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-BoldItalic.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 300;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Light.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: italic;
+    font-weight: 300;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-LightItalic.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-LightItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 500;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Medium.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: italic;
+    font-weight: 500;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-MediumItalic.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-MediumItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: italic;
+    font-weight: normal;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Italic.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 100;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Thin.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: italic;
+    font-weight: 100;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-ThinItalic.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-ThinItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 200;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-UltraLight.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-UltraLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: italic;
+    font-weight: 200;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-UltraLightItalic.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-UltraLightItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 800;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Heavy.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-Heavy.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    font-style: italic;
+    font-weight: 800;
+    font-display: auto;
+    src: url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-HeavyItalic.woff2') format('woff2'), url('https://jehanclone.several.studio/wp-content/uploads/2024/07/HelveticaNeue-HeavyItalic.woff') format('woff');
+}
+
+/* End Custom Fonts CSS */
